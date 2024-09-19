@@ -1,0 +1,70 @@
+{
+	"movies": [
+		{
+			"Title": "Inception",
+			"Director": "Christopher Nolan",
+			"Rating": "PG-13",
+			"Year": "2010"
+		},
+		{
+			"Title": "Dune: Part One",
+			"Director": "Denis Villeneuve",
+			"Rating": "PG-13",
+			"Year": "2021"
+		},
+		{
+			"Title": "Dune: Part Two",
+			"Director": "Denis Villeneuve",
+			"Rating": "PG-13",
+			"Year": "2024"
+		},
+		{
+			"Title": "The Dark Knight",
+			"Director": "Christopher Nolan",
+			"Rating": "PG-13",
+			"Year": "2008"
+		},
+		{
+			"Title": "Interstellar",
+			"Director": "Christopher Nolan",
+			"Rating": "PG-13",
+			"Year": "2024"
+		},
+		{
+			"Title": "Forrest Gump",
+			"Director": "Robert Zemeckis",
+			"Rating": "PG-13",
+			"Year": "1994"
+		},
+		{
+			"Title": "Joker",
+			"Director": "Todd Phillips",
+			"Rating": "R",
+			"Year": "2019"
+		},
+		{
+			"Title": "The Wolf of Wall Street",
+			"Director": "Martin Scorsese",
+			"Rating": "R",
+			"Year": "2013"
+		},
+		{
+			"Title": "Avengers: Endgame",
+			"Director": "Anthony Russo and Joe Russo",
+			"Rating": "PG-13",
+			"Year": "2019"
+		},
+		{
+			"Title": "Past Lives",
+			"Director": "Celine Song",
+			"Rating": "PG-13",
+			"Year": "2023"
+		},
+		{
+			"Title": "How to Train Your Dragon",
+			"Director": "Dean DeBlois and Chris Sanders",
+			"Rating": "PG",
+			"Year": "2010"
+		}
+	]
+}
