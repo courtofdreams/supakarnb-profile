@@ -4,67 +4,125 @@
 			"Title": "Inception",
 			"Director": "Christopher Nolan",
 			"Rating": "PG-13",
-			"Year": "2010"
+			"Year": "2010",
+			"MyScore": "5"
 		},
 		{
 			"Title": "Dune: Part One",
 			"Director": "Denis Villeneuve",
 			"Rating": "PG-13",
-			"Year": "2021"
+			"Year": "2021",
+			"MyScore": "3.5"
 		},
 		{
 			"Title": "Dune: Part Two",
 			"Director": "Denis Villeneuve",
 			"Rating": "PG-13",
-			"Year": "2024"
+			"Year": "2024",
+			"MyScore": "4.5"
 		},
 		{
 			"Title": "The Dark Knight",
 			"Director": "Christopher Nolan",
 			"Rating": "PG-13",
-			"Year": "2008"
+			"Year": "2008",
+			"MyScore": "5"
 		},
 		{
 			"Title": "Interstellar",
 			"Director": "Christopher Nolan",
 			"Rating": "PG-13",
-			"Year": "2024"
+			"Year": "2024",
+			"MyScore": "5"
 		},
 		{
 			"Title": "Forrest Gump",
 			"Director": "Robert Zemeckis",
 			"Rating": "PG-13",
-			"Year": "1994"
+			"Year": "1994",
+			"MyScore": "4.5"
 		},
 		{
 			"Title": "Joker",
 			"Director": "Todd Phillips",
 			"Rating": "R",
-			"Year": "2019"
+			"Year": "2019",
+			"MyScore": "5"
 		},
 		{
 			"Title": "The Wolf of Wall Street",
 			"Director": "Martin Scorsese",
 			"Rating": "R",
-			"Year": "2013"
+			"Year": "2013",
+			"MyScore": "4"
 		},
 		{
 			"Title": "Avengers: Endgame",
 			"Director": "Anthony Russo and Joe Russo",
 			"Rating": "PG-13",
-			"Year": "2019"
+			"Year": "2019",
+			"MyScore": "5"
 		},
 		{
 			"Title": "Past Lives",
 			"Director": "Celine Song",
 			"Rating": "PG-13",
-			"Year": "2023"
+			"Year": "2023",
+			"MyScore": "5"
 		},
 		{
 			"Title": "How to Train Your Dragon",
 			"Director": "Dean DeBlois and Chris Sanders",
 			"Rating": "PG",
-			"Year": "2010"
+			"Year": "2010",
+			"MyScore": "4"
+		}
+	],
+	"series": [
+		{
+			"Title": "Game of Thrones",
+			"Year": "2011–2019",
+			"MyScore": "4"
+		},
+		{
+			"Title": "House of the Dragon",
+			"Year": "2022-now",
+			"MyScore": "4"
+		},
+		{
+			"Title": "The Boys",
+			"Year": "2019-now",
+			"MyScore": "4.75"
+		},
+		{
+			"Title": "Gen V",
+			"Year": "2023-now",
+			"MyScore": "4.5"
+		},
+		{
+			"Title": "Bridgerton",
+			"Year": "2020-now",
+			"MyScore": "Depends on which season"
+		},
+		{
+			"Title": "Money Heist",
+			"Year": "2017-2021",
+			"MyScore": "5"
+		},
+		{
+			"Title": "The Lord of the Rings: The Rings of Power",
+			"Year": "2017-2021",
+			"MyScore": "3.5"
+		},
+		{
+			"Title": "Foundation",
+			"Year": "2021-now",
+			"MyScore": "3.75"
+		},
+		{
+			"Title": "Severance",
+			"Year": "2021-now",
+			"MyScore": "4.5"
 		}
 	]
 }
