@@ -1,121 +1,128 @@
-<!DOCTYPE HTML>  
-<html>  
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Supakarn Bunlert</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Custom Google font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>  
-        <main class="flex-shrink-0"></main>
-        <!---Navigation--->
-        <!--This section of code defines the navigation bar at the top of the page.  The classes used here are defined in the style.css file.-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-            <div class="container px-5">
-                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Supakarn Bunlert</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                        <li class="nav-item"><a class="nav-link" href="index.html">My Webpage</a></li>
-                        <li class="nav-item"><a class="nav-link" href="list.html">List</a></li>
-                    </ul>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Supakarn Bunlert</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main class="flex-shrink-0"></main>
+    <!---Navigation--->
+    <!--This section of code defines the navigation bar at the top of the page.  The classes used here are defined in the style.css file.-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container px-5">
+            <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Supakarn Bunlert</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                    <li class="nav-item"><a class="nav-link" href="index.html">My Webpage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="list.html">List</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--This code creates the middle section of the webpage-->
+    <header class="masthead my-1 text-white text-center">
+        <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">My Favorite Movies and Series</span>
+        </h1>
+    </header>
+    <!--Here is where the table will be loaded in.  The actual table will be loaded in JavaScript.-->
+    <section class="mt-5 text-center">
+        <h2 class="fw-bolder">Movies</h2>
+        <br>
+        <div id="moviesTable"></div>
+    </section>
+    <section class="mt-5 text-center">
+        <h2 class="fw-bolder">Series</h2>
+        <br>
+        <div id="seriesTable"></div>
+    </section>
+    <footer class="bg-white py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0">Copyright &copy; Your Website 2023</div>
+                </div>
+                <div class="col-auto">
+                    <a class="small" href="#!">Privacy</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Terms</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Contact</a>
                 </div>
             </div>
-        </nav>
-        <!--This code creates the middle section of the webpage-->
-        <header class="masthead my-1 text-white text-center">
-            <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">My Favorite Movies and Series</span></h1>
-        </header>
-        <!--Here is where the table will be loaded in.  The actual table will be loaded in JavaScript.-->
-        <section class="mt-5 text-center">
-            <h2 class="fw-bolder">Movies</h2>
-            <br>
-            <div id="moviesTable"></div>
-        </section>
-        <section class="mt-5 text-center">
-            <h2 class="fw-bolder">Series</h2>
-            <br>
-            <div id="seriesTable"></div>
-        </section>
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        </div>
+    </footer>
     </main>
-    </body>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    <script>
+</body>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script>
 
+    /*
+    * RENDERING THE JSON TABLE
+    * Get JSON data from file
+    * Get headers from retrieved data
+    * Set headers for table
+    * Add data to table
+    * Add table to DOM
+    */
+    function renderTable(tableId, data) {
+        var jsonTable = document.createElement("table");
+        var tr = jsonTable.insertRow(-1);
+        jsonTable.style.width = "100%";
+
+        let headers = Object.keys(data[0]);
+        headers.forEach(header => {
+            var th = document.createElement("th");
+            th.innerHTML = header;
+            tr.appendChild(th);
+        })
         /*
-        * RENDERING THE JSON TABLE
-        * Get JSON data from file
-        * Get headers from retrieved data
-        * Set headers for table
-        * Add data to table
-        * Add table to DOM
+        This section adds the data into each row of the list
         */
-        function renderTable(tableId, data) {
-            var jsonTable = document.createElement("table");
-            var tr = jsonTable.insertRow(-1);   
-            jsonTable.style.width = "100%";
+        let items = Object.keys(data);
+        items.forEach(item => {
+            tr = jsonTable.insertRow(-1);
+            for (let key in data[item]) {
+                var tabCell = tr.insertCell(-1);
+                tabCell.innerHTML = data[item][key];
+            }
+        })
+        /*
+        This section adds the table to the HTML
+        */
+        var divContainer = document.getElementById(tableId);
+        divContainer.innerHTML = "";
+        divContainer.appendChild(jsonTable);
+    }
 
-            let headers = Object.keys(data[0]);
-            headers.forEach(header => {
-                var th = document.createElement("th");      
-                th.innerHTML = header;
-                tr.appendChild(th);
-            })              
-            /*
-            This section adds the data into each row of the list
-            */
-            let items = Object.keys(data);
-            items.forEach(item => {
-                tr = jsonTable.insertRow(-1);
-                for (let key in data[item]) {
-                   var tabCell = tr.insertCell(-1);
-                   tabCell.innerHTML = data[item][key];
-                }
-            })
-            /*
-            This section adds the table to the HTML
-            */
-            var divContainer = document.getElementById(tableId);
-            divContainer.innerHTML = "";
-            divContainer.appendChild(jsonTable);
-        }
+    fetch('./list_data.json')
+        .then(response => response.json())
+        .then(data => {
+            renderTable("moviesTable", data.movies);
+            console.log(data.series);
+            renderTable("seriesTable", data.series);
+        });
+</script>
 
-        fetch('./list_data.json')
-            .then(response => response.json())
-            .then(data => {
-                renderTable("moviesTable", data.movies);
-                console.log(data.series);
-                renderTable("seriesTable", data.series);
-
-                
-            });
-    </script>  
 </html>
